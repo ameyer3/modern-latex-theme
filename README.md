@@ -1,3 +1,9 @@
+# My changes
+
+Same as the original modern latex theme, except that the chapter does not have its own page.
+Works well for me when I write really short documents with short chapters.
+This way the document is short and formatted concisely while still creating a proper table of content.
+
 # **Modern** *LaTeX* pdf theme
 
 [![build](https://github.com/randombenj/modern-latex-theme/workflows/CI/badge.svg)](https://github.com/randombenj/modern-latex-theme/actions)

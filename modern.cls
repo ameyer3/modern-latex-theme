@@ -457,28 +457,17 @@
 
 % ------------------------------------------------------------------------------
 % CHAPTER FORMATING
-\titleformat{\chapter}[display]
-  {
-    \null
-    \vfill
-    \Huge\sf\bfseries
-  }
-  {}
-  {10mm}
-  {                       % Formats the heading
-    \vspace{5mm}
-    \Huge\sf\bfseries
-  }
-  [
-    \huge\sf\doctitle
-    \vfill\clearpage
-  ]      % After the titleformat
+\titleformat{\chapter}
+  {\LARGE\sf}
+  {\thechapter}
+  {5mm}
+  {}   % After the titleformat
 
 % define the spacing of the parts
 \titlespacing{\chapter}
   {0cm}
-  {6cm}
-  {0cm}
+  {-24pt}
+  {7mm}
 
 % Title TOC format
 \titlecontents{chapter}
